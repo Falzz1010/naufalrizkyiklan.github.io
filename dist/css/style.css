@@ -1,0 +1,74 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  transition: all 0.3s ease;
+}
+.navbar.scrolling-active{
+  background-color: rgb(255, 255, 255);
+}
+.navbar i {
+  color: rgb(0, 0, 0);
+}
+.navbar i:hover{
+  color: dimgrey;
+  cursor: pointer;
+}
+
+.hero {
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../Asset/Img/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+} 
+.about .row .col:nth-child(1){
+  background-color: #222;
+}
+.projects{
+  padding: 100px 0 100px 0;
+}
+.services img {
+  width: 250px;
+  height: 400px;
+}
+.services h5 {
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.services i{
+  color: green;
+  font-size: 30px;
+}
+.faq{
+  padding-top: 100px;
+}
+
+.faq .accordion .accordion-button:focus{
+  box-shadow: none;
+}
+
+.footer{
+  min-height: 60vh;
+  background-color: #15181f;
+  margin-top: 150px;
+}
+.footer .copyright{
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .services img {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .services h5 {
+    font-size: 16px;
+  }
+}
